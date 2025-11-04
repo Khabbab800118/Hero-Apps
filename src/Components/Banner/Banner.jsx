@@ -8,8 +8,8 @@ const Banner = () => {
                 <h1 className='text-5xl font-bold text-center'>We Build <br /> <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Productive Apps</span></h1>
                 <p className='text-center text-[#627382] font-normal'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br />Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 <div className='flex justify-center gap-5'>
-                    <button className='flex items-center gap-2 border border-[#D2D2D2] px-5 py-2 rounded'><img src="/src/assets/fi_16076057.png" alt="" />Google Play</button>
-                    <button className='flex items-center gap-2 border border-[#D2D2D2] px-7 py-2 rounded'><img src="/src/assets/fi_5977575.png" alt="" />App Store</button>
+                    <a href="https://play.google.com/store/games?hl=en" target='_blank'><button className='flex items-center gap-2 border border-[#D2D2D2] px-5 py-2 rounded'><img src="/src/assets/fi_16076057.png" alt="" />Google Play</button></a>
+                    <a href="https://www.apple.com/app-store/" target='_blank'><button className='flex items-center gap-2 border border-[#D2D2D2] px-7 py-2 rounded'><img src="/src/assets/fi_5977575.png" alt="" />App Store</button></a>
                 </div>
                 <span className='flex justify-center'>
                     <img className='w-[50%]' src="/src/assets/hero.png" alt="" />

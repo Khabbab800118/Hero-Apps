@@ -1,497 +1,542 @@
 [
-    {
-        "image": "https://example.com/images/app1.png",
-        "title": "SnapArt Studio",
-        "companyName": "PixelCraft Ltd.",
-        "id": 1,
-        "description": "Create stunning digital art with AI-powered filters and effects.",
-        "size": 145,
-        "reviews": 3250,
-        "ratingAvg": 4.6,
-        "downloads": 540000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 90
-            },
-            {
-                "name": "2 star",
-                "count": 120
-            },
-            {
-                "name": "3 star",
-                "count": 350
-            },
-            {
-                "name": "4 star",
-                "count": 800
-            },
-            {
-                "name": "5 star",
-                "count": 1890
-            }
-        ]
-    },
-    {
-        "image": "https://example.com/images/app2.png",
-        "title": "TaskFlow",
-        "companyName": "NexGen Productivity",
-        "id": 2,
-        "description": "Organize your life with advanced to-do lists, reminders, and notes.",
-        "size": 98,
-        "reviews": 4720,
-        "ratingAvg": 4.8,
-        "downloads": 980000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 60
-            },
-            {
-                "name": "2 star",
-                "count": 80
-            },
-            {
-                "name": "3 star",
-                "count": 250
-            },
-            {
-                "name": "4 star",
-                "count": 1200
-            },
-            {
-                "name": "5 star",
-                "count": 3130
-            }
-        ]
-    },
-    {
-        "image": "https://example.com/images/app3.png",
-        "title": "BeatSphere",
-        "companyName": "SonicPulse Inc.",
-        "id": 3,
-        "description": "Stream millions of songs, podcasts, and audiobooks ad-free.",
-        "size": 220,
-        "reviews": 15900,
-        "ratingAvg": 4.4,
-        "downloads": 3400000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 500
-            },
-            {
-                "name": "2 star",
-                "count": 950
-            },
-            {
-                "name": "3 star",
-                "count": 2200
-            },
-            {
-                "name": "4 star",
-                "count": 5800
-            },
-            {
-                "name": "5 star",
-                "count": 6450
-            }
-        ]
-    },
-    {
-        "image": "https://example.com/images/app4.png",
-        "title": "FitTrack Pro",
-        "companyName": "WellnessWare",
-        "id": 4,
-        "description": "Monitor your workouts, calories, and sleep with personalized insights.",
-        "size": 175,
-        "reviews": 8360,
-        "ratingAvg": 4.7,
-        "downloads": 2100000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 200
-            },
-            {
-                "name": "2 star",
-                "count": 300
-            },
-            {
-                "name": "3 star",
-                "count": 900
-            },
-            {
-                "name": "4 star",
-                "count": 2400
-            },
-            {
-                "name": "5 star",
-                "count": 4560
-            }
-        ]
-    },
-    {
-        "image": "https://example.com/images/app5.png",
-        "title": "Langify",
-        "companyName": "EduSmart Labs",
-        "id": 5,
-        "description": "Master new languages quickly with interactive lessons and AI tutors.",
-        "size": 160,
-        "reviews": 6940,
-        "ratingAvg": 4.5,
-        "downloads": 1750000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 210
-            },
-            {
-                "name": "2 star",
-                "count": 300
-            },
-            {
-                "name": "3 star",
-                "count": 880
-            },
-            {
-                "name": "4 star",
-                "count": 2300
-            },
-            {
-                "name": "5 star",
-                "count": 3250
-            }
-        ]
-    },
-    {
-        "image": "https://example.com/images/app6.png",
-        "title": "PhotoZen",
-        "companyName": "FrameForge Studios",
-        "id": 6,
-        "description": "Enhance photos instantly using smart filters and background blur tools.",
-        "size": 132,
-        "reviews": 3820,
-        "ratingAvg": 4.3,
-        "downloads": 850000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 140
-            },
-            {
-                "name": "2 star",
-                "count": 200
-            },
-            {
-                "name": "3 star",
-                "count": 560
-            },
-            {
-                "name": "4 star",
-                "count": 1200
-            },
-            {
-                "name": "5 star",
-                "count": 1720
-            }
-        ]
-    },
-    {
-        "image": "https://example.com/images/app7.png",
-        "title": "BudgetEase",
-        "companyName": "FinSync Co.",
-        "id": 7,
-        "description": "Track spending, manage budgets, and set savings goals easily.",
-        "size": 115,
-        "reviews": 6250,
-        "ratingAvg": 4.6,
-        "downloads": 1350000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 160
-            },
-            {
-                "name": "2 star",
-                "count": 220
-            },
-            {
-                "name": "3 star",
-                "count": 500
-            },
-            {
-                "name": "4 star",
-                "count": 1800
-            },
-            {
-                "name": "5 star",
-                "count": 3570
-            }
-        ]
-    },
-    {
-        "image": "https://example.com/images/app8.png",
-        "title": "MindEase",
-        "companyName": "CalmTech",
-        "id": 8,
-        "description": "Meditation, sleep sounds, and mindfulness sessions for stress relief.",
-        "size": 142,
-        "reviews": 14200,
-        "ratingAvg": 4.9,
-        "downloads": 5200000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 150
-            },
-            {
-                "name": "2 star",
-                "count": 200
-            },
-            {
-                "name": "3 star",
-                "count": 600
-            },
-            {
-                "name": "4 star",
-                "count": 3000
-            },
-            {
-                "name": "5 star",
-                "count": 10250
-            }
-        ]
-    },
-    {
-        "image": "https://example.com/images/app9.png",
-        "title": "DriveGuard",
-        "companyName": "AutoSecure",
-        "id": 9,
-        "description": "Track driving behavior and get safety tips in real-time.",
-        "size": 185,
-        "reviews": 2760,
-        "ratingAvg": 4.2,
-        "downloads": 640000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 120
-            },
-            {
-                "name": "2 star",
-                "count": 200
-            },
-            {
-                "name": "3 star",
-                "count": 580
-            },
-            {
-                "name": "4 star",
-                "count": 950
-            },
-            {
-                "name": "5 star",
-                "count": 910
-            }
-        ]
-    },
-    {
-        "image": "https://example.com/images/app10.png",
-        "title": "Newsly",
-        "companyName": "InfoHub Media",
-        "id": 10,
-        "description": "Stay informed with breaking news, live updates, and personalized feeds.",
-        "size": 128,
-        "reviews": 10600,
-        "ratingAvg": 4.4,
-        "downloads": 2500000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 380
-            },
-            {
-                "name": "2 star",
-                "count": 460
-            },
-            {
-                "name": "3 star",
-                "count": 1000
-            },
-            {
-                "name": "4 star",
-                "count": 3200
-            },
-            {
-                "name": "5 star",
-                "count": 5560
-            }
-        ]
-    },
-    {
-        "image": "https://example.com/images/app11.png",
-        "title": "CookVerse",
-        "companyName": "YummyTech",
-        "id": 11,
-        "description": "Discover recipes, watch cooking tutorials, and plan your meals.",
-        "size": 155,
-        "reviews": 8600,
-        "ratingAvg": 4.8,
-        "downloads": 1800000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 100
-            },
-            {
-                "name": "2 star",
-                "count": 150
-            },
-            {
-                "name": "3 star",
-                "count": 450
-            },
-            {
-                "name": "4 star",
-                "count": 2200
-            },
-            {
-                "name": "5 star",
-                "count": 5700
-            }
-        ]
-    },
-    {
-        "image": "https://example.com/images/app12.png",
-        "title": "NoteMate",
-        "companyName": "SmartWrite Inc.",
-        "id": 12,
-        "description": "Write, sync, and share notes with cloud backup and offline support.",
-        "size": 110,
-        "reviews": 5280,
-        "ratingAvg": 4.5,
-        "downloads": 900000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 120
-            },
-            {
-                "name": "2 star",
-                "count": 200
-            },
-            {
-                "name": "3 star",
-                "count": 620
-            },
-            {
-                "name": "4 star",
-                "count": 1900
-            },
-            {
-                "name": "5 star",
-                "count": 2440
-            }
-        ]
-    },
-    {
-        "image": "https://example.com/images/app13.png",
-        "title": "Weatherly",
-        "companyName": "SkyScan",
-        "id": 13,
-        "description": "Accurate forecasts, radar maps, and storm alerts with a clean UI.",
-        "size": 90,
-        "reviews": 6820,
-        "ratingAvg": 4.3,
-        "downloads": 1450000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 190
-            },
-            {
-                "name": "2 star",
-                "count": 300
-            },
-            {
-                "name": "3 star",
-                "count": 890
-            },
-            {
-                "name": "4 star",
-                "count": 2400
-            },
-            {
-                "name": "5 star",
-                "count": 3040
-            }
-        ]
-    },
-    {
-        "image": "https://example.com/images/app14.png",
-        "title": "ShopZilla",
-        "companyName": "EcomWorks",
-        "id": 14,
-        "description": "Find deals, compare prices, and shop from thousands of brands.",
-        "size": 160,
-        "reviews": 9700,
-        "ratingAvg": 4.2,
-        "downloads": 3100000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 400
-            },
-            {
-                "name": "2 star",
-                "count": 700
-            },
-            {
-                "name": "3 star",
-                "count": 1300
-            },
-            {
-                "name": "4 star",
-                "count": 3100
-            },
-            {
-                "name": "5 star",
-                "count": 4200
-            }
-        ]
-    },
-    {
-        "image": "https://example.com/images/app15.png",
-        "title": "GameHaven",
-        "companyName": "PlayVerse Studios",
-        "id": 15,
-        "description": "Discover and download your favorite indie and AAA games instantly.",
-        "size": 320,
-        "reviews": 18500,
-        "ratingAvg": 4.7,
-        "downloads": 7500000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 400
-            },
-            {
-                "name": "2 star",
-                "count": 700
-            },
-            {
-                "name": "3 star",
-                "count": 1800
-            },
-            {
-                "name": "4 star",
-                "count": 5400
-            },
-            {
-                "name": "5 star",
-                "count": 10200
-            }
-        ]
-    }
+  {
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+    "title": "SnapArt Studio",
+    "companyName": "PixelCraft Ltd.",
+    "id": 1,
+    "description": "Create stunning digital art with AI-powered filters and effects.",
+    "size": 145,
+    "reviews": 3250,
+    "ratingAvg": 4.6,
+    "downloads": 540000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1890 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=800&q=80",
+    "title": "TaskFlow",
+    "companyName": "NexGen Productivity",
+    "id": 2,
+    "description": "Organize your life with advanced to-do lists, reminders, and notes.",
+    "size": 98,
+    "reviews": 4720,
+    "ratingAvg": 4.8,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3130 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80",
+    "title": "BeatSphere",
+    "companyName": "SonicPulse Inc.",
+    "id": 3,
+    "description": "Stream millions of songs, podcasts, and audiobooks ad-free.",
+    "size": 220,
+    "reviews": 15900,
+    "ratingAvg": 4.4,
+    "downloads": 3400000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 950 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 5800 },
+      { "name": "5 star", "count": 6450 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1598970434795-0c54fe7c0648?auto=format&fit=crop&w=800&q=80",
+    "title": "FitTrack Pro",
+    "companyName": "WellnessWare",
+    "id": 4,
+    "description": "Monitor your workouts, calories, and sleep with personalized insights.",
+    "size": 175,
+    "reviews": 8360,
+    "ratingAvg": 4.7,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 4560 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=800&q=80",
+    "title": "Langify",
+    "companyName": "EduSmart Labs",
+    "id": 5,
+    "description": "Master new languages quickly with interactive lessons and AI tutors.",
+    "size": 160,
+    "reviews": 6940,
+    "ratingAvg": 4.5,
+    "downloads": 1750000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 880 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 3250 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?auto=format&fit=crop&w=800&q=80",
+    "title": "PhotoZen",
+    "companyName": "FrameForge Studios",
+    "id": 6,
+    "description": "Enhance photos instantly using smart filters and background blur tools.",
+    "size": 132,
+    "reviews": 3820,
+    "ratingAvg": 4.3,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 560 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1720 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1565372195458-9b2e6c050d08?auto=format&fit=crop&w=800&q=80",
+    "title": "BudgetEase",
+    "companyName": "FinSync Co.",
+    "id": 7,
+    "description": "Track spending, manage budgets, and set savings goals easily.",
+    "size": 115,
+    "reviews": 6250,
+    "ratingAvg": 4.6,
+    "downloads": 1350000,
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 3570 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+    "title": "MindEase",
+    "companyName": "CalmTech",
+    "id": 8,
+    "description": "Meditation, sleep sounds, and mindfulness sessions for stress relief.",
+    "size": 142,
+    "reviews": 14200,
+    "ratingAvg": 4.9,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 10250 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "title": "NoteMate",
+    "companyName": "SmartWrite Inc.",
+    "id": 9,
+    "description": "Write, sync, and share notes with cloud backup and offline support.",
+    "size": 110,
+    "reviews": 5280,
+    "ratingAvg": 4.5,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 620 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 2440 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=800&q=80",
+    "title": "Weatherly",
+    "companyName": "SkyScan",
+    "id": 10,
+    "description": "Accurate forecasts, radar maps, and storm alerts with a clean UI.",
+    "size": 90,
+    "reviews": 6820,
+    "ratingAvg": 4.3,
+    "downloads": 1450000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 3040 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=80",
+    "title": "ShopZilla",
+    "companyName": "EcomWorks",
+    "id": 11,
+    "description": "Find deals, compare prices, and shop from thousands of brands.",
+    "size": 160,
+    "reviews": 9700,
+    "ratingAvg": 4.2,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 4200 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa5?auto=format&fit=crop&w=800&q=80",
+    "title": "CookVerse",
+    "companyName": "YummyTech",
+    "id": 12,
+    "description": "Discover recipes, watch cooking tutorials, and plan your meals.",
+    "size": 155,
+    "reviews": 8600,
+    "ratingAvg": 4.8,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 5700 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1470167290877-7d2f6c4d4a36?auto=format&fit=crop&w=800&q=80",
+    "title": "DriveGuard",
+    "companyName": "AutoSecure",
+    "id": 13,
+    "description": "Track driving behavior and get safety tips in real-time.",
+    "size": 185,
+    "reviews": 2760,
+    "ratingAvg": 4.2,
+    "downloads": 640000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 580 },
+      { "name": "4 star", "count": 950 },
+      { "name": "5 star", "count": 910 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1472289065668-ce650ac443d2?auto=format&fit=crop&w=800&q=80",
+    "title": "DailyDigest",
+    "companyName": "PulseMedia",
+    "id": 14,
+    "description": "Bite-sized news and personalized reading lists for quick daily updates.",
+    "size": 76,
+    "reviews": 4120,
+    "ratingAvg": 4.4,
+    "downloads": 780000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 640 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 1680 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55e?auto=format&fit=crop&w=800&q=80",
+    "title": "HealthHub",
+    "companyName": "MediSoft",
+    "id": 15,
+    "description": "Connect with doctors, store medical records, and get prescriptions online.",
+    "size": 210,
+    "reviews": 5580,
+    "ratingAvg": 4.3,
+    "downloads": 640000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 1280 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=800&q=80",
+    "title": "SketchBoard",
+    "companyName": "CreativeLabs",
+    "id": 16,
+    "description": "Vector sketching and wireframing tools for designers on the go.",
+    "size": 95,
+    "reviews": 2380,
+    "ratingAvg": 4.1,
+    "downloads": 320000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 560 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=800&q=80",
+    "title": "PocketLaw",
+    "companyName": "LexAssist",
+    "id": 17,
+    "description": "Legal templates, case notes, and quick consultations for small businesses.",
+    "size": 66,
+    "reviews": 1120,
+    "ratingAvg": 4.0,
+    "downloads": 98000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 420 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80",
+    "title": "TrailMapper",
+    "companyName": "OutdoorIQ",
+    "id": 18,
+    "description": "Topographic maps, route planning, and offline navigation for hikers.",
+    "size": 198,
+    "reviews": 3010,
+    "ratingAvg": 4.6,
+    "downloads": 410000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 460 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1480 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1546488637-6a27a9b6d4d7?auto=format&fit=crop&w=800&q=80",
+    "title": "PocketChef",
+    "companyName": "KitchenByte",
+    "id": 19,
+    "description": "Step-by-step guided recipes, grocery lists, and meal planning.",
+    "size": 130,
+    "reviews": 4390,
+    "ratingAvg": 4.5,
+    "downloads": 610000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 760 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 1690 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55b?auto=format&fit=crop&w=800&q=80",
+    "title": "LangLeap",
+    "companyName": "Polyglot Labs",
+    "id": 20,
+    "description": "Micro-lessons and AI conversation practice to boost speaking confidence.",
+    "size": 88,
+    "reviews": 2150,
+    "ratingAvg": 4.4,
+    "downloads": 330000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 540 },
+      { "name": "5 star", "count": 1160 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80",
+    "title": "StudyBuddy",
+    "companyName": "BrightMinds",
+    "id": 21,
+    "description": "Custom study plans, flashcards, and AI tutors for exam prep.",
+    "size": 125,
+    "reviews": 7240,
+    "ratingAvg": 4.7,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 820 },
+      { "name": "4 star", "count": 2160 },
+      { "name": "5 star", "count": 3840 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
+    "title": "EventHive",
+    "companyName": "SocialGrid",
+    "id": 22,
+    "description": "Create events, sell tickets, and manage guest lists with ease.",
+    "size": 102,
+    "reviews": 2980,
+    "ratingAvg": 4.3,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 560 },
+      { "name": "4 star", "count": 820 },
+      { "name": "5 star", "count": 1360 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80",
+    "title": "FocusFlow",
+    "companyName": "MindWorks",
+    "id": 23,
+    "description": "Pomodoro timer, focus music, and analytics to improve concentration.",
+    "size": 48,
+    "reviews": 1640,
+    "ratingAvg": 4.5,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 780 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1526378722403-8a0b6fa1f4f6?auto=format&fit=crop&w=800&q=80",
+    "title": "CryptoTrack",
+    "companyName": "BlockMetrics",
+    "id": 24,
+    "description": "Real-time portfolio tracking, alerts, and market analysis for crypto.",
+    "size": 140,
+    "reviews": 5030,
+    "ratingAvg": 4.1,
+    "downloads": 760000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 1330 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=800&q=80",
+    "title": "GardenPal",
+    "companyName": "GreenThumb Tech",
+    "id": 25,
+    "description": "Plant care reminders, disease diagnosis, and garden planning tools.",
+    "size": 86,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 390 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee?auto=format&fit=crop&w=800&q=80",
+    "title": "SleepSense",
+    "companyName": "SomniTech",
+    "id": 26,
+    "description": "Advanced sleep tracking with guided programs and ambient soundscapes.",
+    "size": 152,
+    "reviews": 4260,
+    "ratingAvg": 4.6,
+    "downloads": 540000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 520 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2320 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1520975912376-8b6d8b6c3d2f?auto=format&fit=crop&w=800&q=80",
+    "title": "KidsLearn",
+    "companyName": "BrightTots",
+    "id": 27,
+    "description": "Interactive early-learning games for literacy, math, and creativity.",
+    "size": 78,
+    "reviews": 2890,
+    "ratingAvg": 4.7,
+    "downloads": 410000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 360 },
+      { "name": "4 star", "count": 820 },
+      { "name": "5 star", "count": 1570 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&w=800&q=80",
+    "title": "StudioMix",
+    "companyName": "AudioForge",
+    "id": 28,
+    "description": "Mobile multi-track recorder and editor for musicians and podcasters.",
+    "size": 250,
+    "reviews": 7210,
+    "ratingAvg": 4.5,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1320 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 3110 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?auto=format&fit=crop&w=800&q=80",
+    "title": "ArtisanMarket",
+    "companyName": "CraftWorks",
+    "id": 29,
+    "description": "Sell handmade goods, manage orders, and grow your artisan brand.",
+    "size": 118,
+    "reviews": 1940,
+    "ratingAvg": 4.4,
+    "downloads": 260000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 380 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 860 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1484672218882-2c2d7d0a43c9?auto=format&fit=crop&w=800&q=80",
+    "title": "GameHaven",
+    "companyName": "PlayVerse Studios",
+    "id": 30,
+    "description": "Discover and download your favorite indie and AAA games instantly.",
+    "size": 320,
+    "reviews": 18500,
+    "ratingAvg": 4.7,
+    "downloads": 7500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 5400 },
+      { "name": "5 star", "count": 10200 }
+    ]
+  }
 ]
