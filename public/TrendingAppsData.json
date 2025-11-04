@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+    "title": "SnapArt Studio",
+    "companyName": "PixelCraft Ltd.",
+    "id": 1,
+    "description": "Create stunning digital art with AI-powered filters and effects.",
+    "size": 145,
+    "reviews": 3250,
+    "ratingAvg": 4.6,
+    "downloads": 540000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1890 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=800&q=80",
+    "title": "TaskFlow",
+    "companyName": "NexGen Productivity",
+    "id": 2,
+    "description": "Organize your life with advanced to-do lists, reminders, and notes.",
+    "size": 98,
+    "reviews": 4720,
+    "ratingAvg": 4.8,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3130 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80",
+    "title": "BeatSphere",
+    "companyName": "SonicPulse Inc.",
+    "id": 3,
+    "description": "Stream millions of songs, podcasts, and audiobooks ad-free.",
+    "size": 220,
+    "reviews": 15900,
+    "ratingAvg": 4.4,
+    "downloads": 3400000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 950 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 5800 },
+      { "name": "5 star", "count": 6450 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1598970434795-0c54fe7c0648?auto=format&fit=crop&w=800&q=80",
+    "title": "FitTrack Pro",
+    "companyName": "WellnessWare",
+    "id": 4,
+    "description": "Monitor your workouts, calories, and sleep with personalized insights.",
+    "size": 175,
+    "reviews": 8360,
+    "ratingAvg": 4.7,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 4560 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=800&q=80",
+    "title": "Langify",
+    "companyName": "EduSmart Labs",
+    "id": 5,
+    "description": "Master new languages quickly with interactive lessons and AI tutors.",
+    "size": 160,
+    "reviews": 6940,
+    "ratingAvg": 4.5,
+    "downloads": 1750000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 880 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 3250 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?auto=format&fit=crop&w=800&q=80",
+    "title": "PhotoZen",
+    "companyName": "FrameForge Studios",
+    "id": 6,
+    "description": "Enhance photos instantly using smart filters and background blur tools.",
+    "size": 132,
+    "reviews": 3820,
+    "ratingAvg": 4.3,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 560 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1720 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1565372195458-9b2e6c050d08?auto=format&fit=crop&w=800&q=80",
+    "title": "BudgetEase",
+    "companyName": "FinSync Co.",
+    "id": 7,
+    "description": "Track spending, manage budgets, and set savings goals easily.",
+    "size": 115,
+    "reviews": 6250,
+    "ratingAvg": 4.6,
+    "downloads": 1350000,
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 3570 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+    "title": "MindEase",
+    "companyName": "CalmTech",
+    "id": 8,
+    "description": "Meditation, sleep sounds, and mindfulness sessions for stress relief.",
+    "size": 142,
+    "reviews": 14200,
+    "ratingAvg": 4.9,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 10250 }
+    ]
+  }
+]
