@@ -1,15 +1,20 @@
 import { Download, Star, ThumbsUpIcon } from 'lucide-react';
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
+import { installedApps } from '../../Utility/Utility';
 
 const AppDetails = () => {
 
     const allAppData = useLoaderData();
     const { id } = useParams();
     const individualAppId = parseInt(id);
-    const singleApp = allAppData.find(app => app.id === individualAppId)
-    console.log(singleApp);
-    
+    const singleApp = allAppData.find(app => app.id === individualAppId);
+    const [isInstalled, setIsInstalled] = useState(false);
+    const handleInstallBtn = (id) => {
+        setIsInstalled(true)
+        installedApps(id)
+    }
+
 
     return (
         <div className='bg-[#F3F3F3]'>
@@ -41,7 +46,8 @@ const AppDetails = () => {
                             <h1 className='text-3xl font-bold text-start'>{singleApp.reviews}</h1>
                         </div>
                     </div>
-                    <button className='bg-[#00D390] text-white rounded px-5 py-2'>Install</button>
+                    {/* install button */}
+                    <button onClick={() => handleInstallBtn(id)} disabled={isInstalled} className={`text-white rounded px-5 py-2 ${isInstalled ? 'bg-gradient-to-r from-[#632EE3] to-[#9F62F2]' : 'bg-[#00D390]'}`}>{isInstalled ? "Installed" : "Install"}</button>
                 </div>
             </div>
             {/* lower part */}
@@ -54,3 +60,6 @@ const AppDetails = () => {
 };
 
 export default AppDetails;
+
+// bg-gradient-to-r from-[#632EE3] to-[#9F62F2]
+// bg-[#00D390]

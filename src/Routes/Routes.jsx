@@ -7,6 +7,7 @@ import Home from '../Pages/Home/Home';
 import TrendingAppDetails from '../Components/TrendingApps/TrendingAppDetails';
 import Apps from '../Pages/Apps/Apps';
 import AppDetails from '../Pages/Apps/AppDetails';
+import Installation from '../Pages/Installation/Installation';
 
 export const router = createBrowserRouter([
     {
@@ -16,13 +17,13 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                loader: () => fetch('TrendingAppsData.json'),
+                loader: () => fetch('/TrendingAppsData.json'),
                 path: "/",
                 Component: Home
             },
             {
                 path: "/apps",
-                loader: () => fetch('AppsData.json'),
+                loader: () => fetch('/AppsData.json'),
                 Component: Apps,
             },
             {
@@ -32,8 +33,13 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/TrendingApps/:id',
-                loader: () => fetch('TrendingAppsData.json'),
+                loader: () => fetch('/TrendingAppsData.json'),
                 Component: TrendingAppDetails,
+            },
+            {
+                path: 'Installation',
+                loader: () => fetch("/AppsData.json"),
+                Component: Installation,
             }
         ]
     },

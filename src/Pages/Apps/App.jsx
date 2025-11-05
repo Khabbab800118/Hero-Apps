@@ -4,7 +4,6 @@ import { Link } from 'react-router';
 
 const App = ({ app }) => {
     const individualApp = app
-    console.log(individualApp);
 
     return (
         <Link to={`/apps/${individualApp.id}`}>
