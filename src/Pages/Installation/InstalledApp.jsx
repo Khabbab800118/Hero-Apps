@@ -1,7 +1,7 @@
 import React from 'react';
 import { Download, Star } from 'lucide-react';
 
-const InstalledApp = ({ app }) => {
+const InstalledApp = ({ app, onUninstall }) => {
 
     return (
         <div className='bg-white p-3 rounded-lg flex justify-between items-center'>
@@ -25,7 +25,7 @@ const InstalledApp = ({ app }) => {
                 </div>
 
             </div>
-            <button className='bg-green-600 px-5 py-2 h-fit text-white rounded'>Uninstall</button>
+            <button onClick={onUninstall} className='bg-green-600 px-5 py-2 h-fit text-white rounded'>Uninstall</button>
         </div>
 
     );

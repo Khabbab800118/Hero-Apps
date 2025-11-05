@@ -12,7 +12,7 @@ const TrendingApps = ({ trendingAppsData }) => {
             <p className='text-center text-[#627382] font-normal'>Explore All Trending Apps on the Market developed by us</p>
             <div className='grid lg:grid-cols-3 gap-3 w-[90%] mx-auto'>
                 {
-                    allTrendingAppsData?.map(individualTrendingAppData => <TrendingApp key={individualTrendingAppData.id}
+                    allTrendingAppsData.map(individualTrendingAppData => <TrendingApp key={individualTrendingAppData.id}
                     individualTrendingAppData={individualTrendingAppData}
                     ></TrendingApp>)
                 }

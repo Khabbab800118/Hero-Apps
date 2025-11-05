@@ -1,6 +1,11 @@
 import { Download, Star, ThumbsUpIcon } from 'lucide-react';
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+import { installedApps } from '../../Utility/Utility';
+
+const MySwal = withReactContent(Swal)
 
 const TrendingAppDetails = () => {
 
@@ -8,6 +13,16 @@ const TrendingAppDetails = () => {
     const { id } = useParams();
     const individualTrendingAppId = parseInt(id);
     const singleApp = data.find(app => app.id === individualTrendingAppId);
+    const [isInstalled, setIsInstalled] = useState(false);
+    const handleInstallBtn = (id) => {
+        setIsInstalled(true)
+        installedApps(id)
+        MySwal.fire({
+            title: "Installed!",
+            text: "Check in Installation!",
+            icon: "success"
+        });
+    }
 
 
     return (
@@ -40,7 +55,7 @@ const TrendingAppDetails = () => {
                             <h1 className='text-3xl font-bold text-start'>{singleApp.reviews}</h1>
                         </div>
                     </div>
-                    <button className='bg-[#00D390] text-white rounded px-5 py-2'>Install</button>
+                    <button onClick={() => handleInstallBtn(id)} disabled={isInstalled} className={`text-white rounded px-5 py-2 ${isInstalled ? 'bg-gradient-to-r from-[#632EE3] to-[#9F62F2]' : 'bg-[#00D390]'}`}>{isInstalled ? "Installed" : "Install"}</button>
                 </div>
             </div>
             {/* lower part */}

@@ -1,7 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
-import { getInstalledApps } from '../../Utility/Utility';
+import { getInstalledApps, removeInstalledApp } from '../../Utility/Utility';
 import InstalledApp from './InstalledApp';
+
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
+const MySwal = withReactContent(Swal)
+
 
 const Installation = () => {
 
@@ -13,7 +19,17 @@ const Installation = () => {
         const myInstalledApps = allAppsData.filter(app => convertedInstalledAppsData.includes(app.id))
         setInstalledApps(myInstalledApps)
     }, [])
-    console.log(installedApps);
+
+
+    const handleUninstall = (id) => {
+        removeInstalledApp(id);
+        setInstalledApps(prev => prev.filter(app => app.id !== id));
+
+        MySwal.fire({
+            title: "Uninstalled!",
+            icon: "success"
+        });
+    }
 
 
     return (
@@ -22,7 +38,7 @@ const Installation = () => {
             <p className='text-center text-[#627382] font-normal'>Explore All Apps on the Market developed by us. We code for Millions</p>
             <h1 className='text-4xl font-bold'>Installed ({installedApps.length}) </h1>
             {
-                installedApps.map(app => <InstalledApp key={app.id} app={app}></InstalledApp>)
+                installedApps.map(app => <InstalledApp key={app.id} app={app} onUninstall={() => handleUninstall(app.id)}></InstalledApp>)
             }
         </div>
     );
