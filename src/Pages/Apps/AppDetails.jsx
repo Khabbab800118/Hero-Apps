@@ -2,6 +2,10 @@ import { Download, Star, ThumbsUpIcon } from 'lucide-react';
 import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { installedApps } from '../../Utility/Utility';
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
+const MySwal = withReactContent(Swal)
 
 const AppDetails = () => {
 
@@ -13,6 +17,11 @@ const AppDetails = () => {
     const handleInstallBtn = (id) => {
         setIsInstalled(true)
         installedApps(id)
+        MySwal.fire({
+            title: "Installed!",
+            text: "Check in Installation!",
+            icon: "success"
+        });
     }
 
 
