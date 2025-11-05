@@ -35,9 +35,10 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-medium px-5 py-2 rounded-lg flex gap-2'>
+                <a href="https://github.com/khabbab800118" target='_blank'><button className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-medium px-5 py-2 rounded-lg flex gap-2'>
                     <span><Github></Github></span>
-                    <span>Contribute</span></button>
+                    <span>Contribute</span></button></a>
+                
             </div>
         </div>
     );
