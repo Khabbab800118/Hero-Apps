@@ -25,7 +25,7 @@ const Navbar = () => {
                 </div>
                 {/* logo */}
                 <div className='w-10 flex items-center gap-2'>
-                    <img src="/src/assets/logo.png" alt="" />
+                    <img src="https://i.ibb.co.com/YBxXYQbz/logo.png" alt="" />
                     <h1 className='font-bold text-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>HERO.IO</h1>
                 </div>
             </div>
